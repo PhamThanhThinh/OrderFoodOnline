@@ -34,3 +34,15 @@ footer {
   background-color: lightblue;
   height: 200px;
 }
+
+header {
+  z-index: 1000;
+}
+
+#todaySpecial {
+
+}
+
+.dishCard {
+  /*height: 250px;*/
+}

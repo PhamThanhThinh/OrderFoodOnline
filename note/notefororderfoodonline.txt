@@ -2,8 +2,7 @@
 2, Làm menu: Làm một menu đơn giản
 3, Tạo trang Home (slide và danh sách các thể loại đồ ăn)
 4, Tạo chân trang (footer)
-5, Chi Tiết các trang
-
+5, Chi Tiết các trang (chi tiết đồ ăn)
 Search: carousel trong trang https://getbootstrap.com/docs/5.1/components/carousel/ (đúng phiên bản mà bootrap được cài trong project của bạn)
 
 
@@ -13,5 +12,31 @@ vào cdn để lấy link
 backend
 frontend
 test (làm file excel unit test + test giao diện)
+
+
+control + space để mở gợi ý code
+
+
+Tìm với từ khóa: forkify api
+Khai báo thư viện API dùng cho get và post dữ liệu:
+https://forkify-api.herokuapp.com/v2
+lấy link ảnh bằng api với:
+https://forkify-api.herokuapp.com/api/v2/recipes?search=lemon
+cú pháp là recipes?search=lemon
+danh sách các món (tiếng Anh)
+https://forkify-api.herokuapp.com/phrases.html
+
+link/@model.NoiLuuDuong.Image
+
+Làm giao diện menu dọc và tạo database
+
+1, add css vào để làm menu dọc (thay đổi màu sắc cho các icon mạng xã hội trong phần chân trang, cho có màu sắc để cho nó đẹp hơn, ở đây mình dùng màu đen cho tất cả luôn)
+2, tạo controller và add view cho controller đó
+3, làm thanh tìm kiếm: tìm kiếm tự động theo món ăn được chọn
+
+h-75 (chiều cao sẽ bằng 75 phần trăm của cặp thẻ cha chứa nó)
+h-100 (chiều cao sẽ bằng 100 phần trăm của cặp thẻ cha chứa nó)
+col-12 col là column cột, 12 là kích của cột đó, ở đây 12 có nghĩa full kích thước chiều ngang (chiều rộng)
+
 
 

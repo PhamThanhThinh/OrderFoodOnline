@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <header>
+  <header class="position-sticky top-0">
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
       <div class="container-fluid">
         <a class="navbar-brand fw-bold" asp-area="" asp-controller="Home" asp-action="Index">Order Food Online</a>
@@ -22,6 +22,9 @@
           <ul class="navbar-nav flex-grow-1">
             <li class="nav-item">
               <a class="nav-link menu-item fw-bold nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu-item fw-bold nav-link" asp-area="" asp-controller="Recipe" asp-action="Index">Thực Đơn</a>
             </li>
             <li class="nav-item">
               <a class="nav-link menu-item fw-bold nav-link" asp-area="">Đồ Ăn</a>
@@ -55,20 +58,35 @@
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 text-black">
           <p>Liên Hệ Với Chúng Tôi</p>
-          <div class="mt-3">
+          <div class="mt-3 mb-1">
             <span><i class="fa-brands fa-facebook"></i> Facebook</span>
           </div>
-          <div class="mt-3">
+          <div class="mt-3 mb-1">
             <span><i class="fa-solid fa-x"></i> X</span>
           </div>
-          <div class="mt-3">
+          <div class="mt-3 mb-1">
             <span><i class="fa-solid fa-envelope"></i> Gmail</span>
           </div>
-          <div class="mt-3">
+          <div class="mt-3 mb-1">
             <span><i class="fa-brands fa-youtube"></i> YouTube</span>
           </div>
+          <div class="mt-3 mb-1">
+            <span><i class="fa-brands fa-twitter"></i> Twitter</span>
+          </div>
+          <div class="mt-3 mb-1">
+            <span><i class="fa-brands fa-square-instagram"></i> Instagram</span>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 text-black">
+          <h4>Địa chỉ</h4>
+          <pre>Việt Nam</pre>
         </div>
       </div>
+
+      <div mb-3>
+        <p class="text-center p-2">Được tạo trong buổi phát trực tiếp trên kênh Coding With Thinh</p>
+      </div>
+
       @* &copy; 2024 - Đặt Đồ Ăn Online - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> *@
     </div>
   </footer>
