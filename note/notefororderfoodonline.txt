@@ -1,0 +1,17 @@
+1, Tạo Project
+2, Làm menu: Làm một menu đơn giản
+3, Tạo trang Home (slide và danh sách các thể loại đồ ăn)
+4, Tạo chân trang (footer)
+5, Chi Tiết các trang
+
+Search: carousel trong trang https://getbootstrap.com/docs/5.1/components/carousel/ (đúng phiên bản mà bootrap được cài trong project của bạn)
+
+
+import font-awesome vào project
+vào cdn để lấy link
+
+backend
+frontend
+test (làm file excel unit test + test giao diện)
+
+
