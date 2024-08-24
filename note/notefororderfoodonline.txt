@@ -38,5 +38,7 @@ h-75 (chiều cao sẽ bằng 75 phần trăm của cặp thẻ cha chứa nó)
 h-100 (chiều cao sẽ bằng 100 phần trăm của cặp thẻ cha chứa nó)
 col-12 col là column cột, 12 là kích của cột đó, ở đây 12 có nghĩa full kích thước chiều ngang (chiều rộng)
 
+react (có thể kết hợp được với c# không?)
+
 
 
