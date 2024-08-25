@@ -16,6 +16,8 @@ Tự động gợi ý món ăn: add thư viện jquery để làm
 
 search là jquery ui
 
+SignalR nên dùng trong code một trang forum thì có trải nghiệm thời gian thật cho nó ok
+
 forkify api
 
 carrot
