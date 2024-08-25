@@ -46,3 +46,11 @@ header {
 .dishCard {
   /*height: 250px;*/
 }
+
+.recipe-item {
+
+}
+
+#recipe-list {
+  top: 5rem;
+}
