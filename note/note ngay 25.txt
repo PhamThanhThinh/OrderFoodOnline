@@ -13,6 +13,7 @@ vh-100 chiều cao sẽ là full 100% bằng với chiều cao của trình duy�
 overflow-auto xuất hiện cuộn trang nếu nội dung bị tràn
 
 Tự động gợi ý món ăn: add thư viện jquery để làm
+(auto suggest)
 
 search là jquery ui
 
