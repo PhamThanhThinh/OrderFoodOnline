@@ -17,7 +17,15 @@ parameters => expression
 
 anonymous functions
 
-tự code lại chức năng đăng ký đăng nhập đăng xuất
-so sánh identity và code tự code
+code lại chức năng đăng ký đăng nhập đăng xuất
+so sánh identity và code tự code là hiểu ngay mà
 
+ESC
+
+
+
+thêm button Order vào card img trong home
+
+IIS (windows)
+nginx (linux)
 

@@ -11,7 +11,7 @@ async function GetRecipes(recipeName, id, isAllShow) {
   let result = await resp.json();
   //console.log(result);
   /*xử lý ngoại lệ*/
-  let Recipes = isAllShow ? result.data.recipes : result.data.recipes.slice(0, 5);
+  let Recipes = isAllShow ? result.data.recipes : result.data.recipes.slice(0, 12);
   showRecipes(Recipes, id);
 }
 
