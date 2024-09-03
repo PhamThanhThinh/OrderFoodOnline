@@ -1,0 +1,23 @@
+Tạo Database theo kiểu Code First
+
+Deploy trang web thì Thịnh ít động vào (thường web asp.net được deploy trên VPS windows server)
+DDOS
+
+Middleware và Pipeline dùng trong ASP.NET Core (framework code web)
+
+Nếu tiếp xúc với ASP.NET Framework (.net framework) trước khi tiếp xúc với ASP.NET Core thì sẽ ít thấy khái niệm về Middleware và Pipeline vì .net framework gần như không có khái niệm Middleware
+
+Giai đoạn trước .net core 6 (từ .net core 5 trở về trước) thì phần setting HTTP được làm trong Startup.cs -> hiện tại thì tất cả những setting liên quan đến HTTP được thực hiện trong file Program.cs
+
+Làm thanh tìm kiếm suggest ()
+Làm trang thực đơn:
+
+parameters => expression
+
+
+anonymous functions
+
+tự code lại chức năng đăng ký đăng nhập đăng xuất
+so sánh identity và code tự code
+
+
