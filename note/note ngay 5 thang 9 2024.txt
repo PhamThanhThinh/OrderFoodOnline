@@ -1,0 +1,6 @@
+IDE
+
+Add-Migration
+Update-Database
+
+đối project web ASP.NET thì dùng máy chủ web là IIS là ổn định

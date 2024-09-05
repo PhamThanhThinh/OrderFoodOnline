@@ -14,8 +14,9 @@ namespace OrderFoodOnline.Controllers
     {
       return PartialView("_RecipeCard", recipes);
     }
-    public IActionResult Search(int id)
+    public IActionResult Search([FromQuery] string recipe)
     {
+      ViewBag.Recipe = recipe;
       return View();
     }
   }
